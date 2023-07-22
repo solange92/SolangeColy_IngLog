@@ -1,0 +1,71 @@
+#entete 
+{
+	font-size: 2em;
+	text-align: center;
+	font-family: "AGENCY FB";
+	text-transform: uppercase;
+	border: 3px ridge black;
+	margin-bottom: 10px;
+	text-align: center;
+	color : black;
+	/*border-bottom: 3px ridge black;*/
+	/*border:1px solid green;*/
+}
+
+#H2 {
+    text-align: center;
+	color : black;
+}
+#container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* Ajustez la hauteur selon vos besoins */
+    background-color: black; /* Couleur de fond noire */
+    border: 2px solid white; /* Bordure blanche de 2 pixels */
+    box-sizing: border-box; /* Inclure la bordure dans le calcul de la taille totale */
+}
+#container2{
+  display: flex;
+    justify-content: right;
+    
+    height: 30vh; /* Ajustez la hauteur selon vos besoins */
+    background-color: yellow; /* Couleur de fond noire */
+    border: 2px solid white; /* Bordure blanche de 2 pixels */
+    box-sizing: border-box; /* Inclure la bordure dans le calcul de la taille totale */
+	text-align: left;
+	border-radius: 10px; 
+}
+
+
+#contenu
+{
+	float: right;
+	width: 80%;
+	text-align: justify;
+	/*border:1px solid yellow;*/
+}
+#menu
+{
+	margin-left: 80%;
+	text-align: center;
+	/*border:1px solid red;*/
+}
+#menu li
+{
+	list-style-type: none;
+}
+#menu h1
+{
+	margin-top: 0px;
+	padding-top: 0px;
+	font-family: "AGENCY FB";
+	text-transform: uppercase;
+}
+.article
+{
+	margin: 10px;
+	padding: 10px;
+	border:3px double black;
+	background-color: rgba(0, 255, 0, 0.1);
+}

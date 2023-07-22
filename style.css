@@ -1,0 +1,74 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.navbar li {
+    margin: 10px;
+}
+
+.navbar li:not(:last-child)::after {
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 20px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+}
+
+.navbar li a:focus {
+    outline: 2px solid red;
+}
+.navbar li a:focus,
+.navbar li a:active {
+    outline: 2px solid red;
+}
+}
+.highlight {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background-color: red;
+    transition: transform 0.3s ease-in-out;
+}
+
+#container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* Ajustez la hauteur selon vos besoins */
+    background-color: black; /* Couleur de fond noire */
+    border: 2px solid white; /* Bordure blanche de 2 pixels */
+    box-sizing: border-box; /* Inclure la bordure dans le calcul de la taille totale */
+}
+#container2{
+  display: flex;
+    justify-content: right;
+    
+    height: 30vh; /* Ajustez la hauteur selon vos besoins */
+    background-color: yellow; /* Couleur de fond noire */
+    border: 2px solid white; /* Bordure blanche de 2 pixels */
+    box-sizing: border-box; /* Inclure la bordure dans le calcul de la taille totale */
+	text-align: left;
+	border-radius: 10px; 
+}
+
+#H1 {
+    text-align: center;
+	color : white;
+}
+#H2 {
+    text-align: center;
+	color : black;
+}
